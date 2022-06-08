@@ -28,4 +28,6 @@ answers = [
     'Very doubtful'
   ]
 
+  puts 'Hello, dear friend. Your question?..'
+  puts
   puts answers.sample
