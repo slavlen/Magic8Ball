@@ -1,5 +1,11 @@
 # coding: utf-8
 
+greetings = [
+  'Hello, dear friend. The answer to your question...',
+  'Who asks gets an answer...',
+  'Hello mortal. Here is the answer for you today...'
+]
+
 answers = [
     #  affirmative answers
     'It is certain',
@@ -28,6 +34,5 @@ answers = [
     'Very doubtful'
   ]
 
-  puts 'Hello, dear friend. Your question?..'
-  puts
+  puts greetings.sample
   puts answers.sample
